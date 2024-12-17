@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ Web Audio API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>DJ Web Audio API: Remix Your Song!</h1>
+
+  <button id="playPause">Play</button>
+  <input type="range" id="speedControl" min="0.5" max="2" value="1" step="0.1">
+  <label for="speedControl">Playback Speed: <span id="speedValue">1x</span></label>
+
+  <h3>DJ Effects:</h3>
+  <button id="lowpass">Lowpass Filter</button>
+  <button id="highpass">Highpass Filter</button>
+  <button id="removeFilter">Remove Filter</button>
+
+  <p id="status">Loading audio file...</p> <!-- Status message for debugging -->
+  <a href="https://pixabay.com/music/rock-powerful-energy-upbeat-rock-advertising-music-245728/">Music by FASSounds from Pixabay</a>
+  
+ <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
